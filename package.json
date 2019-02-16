@@ -1,0 +1,23 @@
+{
+  "name": "duplicates",
+  "version": "1.0.0",
+  "description": "Output duplicate files names in a given path",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "mocha -- server/**/*.test.js"
+  },
+  "author": "Tammy Kaldes",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
